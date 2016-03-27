@@ -1,0 +1,206 @@
+@font-face {
+	font-family:"Cursive Serif";
+	src:url("../font/Cursive_serif/CursiveSerif.eot?") format("eot"),
+	url("../font/Cursive_serif/CursiveSerif.woff") format("woff"),
+	url("../font/Cursive_serif/CursiveSerif.ttf") format("truetype"),
+	url("../font/Cursive_serif/CursiveSerif.svg#CursiveSerif") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+/*@font-face {
+	font-family:"GrandHotel-Regular";
+	src:url("../font/GrandHotel_Regular/GrandHotel-Regular.eot?") format("eot"),
+	url("../font/GrandHotel_Regular/GrandHotel-Regular.woff") format("woff"),
+	url("../font/GrandHotel_Regular/GrandHotel-Regular.ttf") format("truetype"),
+	url("../font/GrandHotel_Regular/GrandHotel-Regular.svg#GrandHotel-Regular") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../font/icomoon/icomoon.eot?18yrm');
+    src:    url('../font/icomoon/icomoon.eot?18yrm#iefix') format('embedded-opentype'),
+        url('../font/icomoon/icomoon.ttf?18yrm') format('truetype'),
+        url('../font/icomoon/icomoon.woff?18yrm') format('woff'),
+        url('../font/icomoon/icomoon.svg?18yrm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+	text-decoration: none;
+}
+
+aside .numero-preg{
+	background: #009688;
+	border-radius: 50%;
+	box-shadow: 0.1em 0.1em 0.1em 0 rgba(0,0,0,0.75);
+	color: white;
+	display: table-cell;
+	font-family: arial;
+	height: 3em;
+	text-align: center;
+	vertical-align: middle;
+	width: 3em;
+}
+
+body{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: "Cursive Serif",Georgia, Serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+footer{
+	background: #CCC;
+	display: block;
+	font-size: 0.8em;
+	height: 3em;
+	padding: 0.5em;
+	text-align: center;
+	/*width: 100%;*/
+}
+
+h1{
+	font-family: "Cursive Serif",Georgia, Serif;
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0.5em;
+	height: 5%;
+}
+
+h2{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+header{
+	background: #1976D2;
+	color: white;
+}
+
+
+nav, aside{
+	bottom: 0.3em;
+	display: inline-block;
+	position: fixed;
+	right: 0.3em;
+}
+
+nav a{
+	background: #009688;
+	border-radius: 50%;
+	box-shadow: 0.1em 0.1em 0.1em 0 rgba(0,0,0,0.75);
+	color: white;
+	display: table-cell;
+	font-family: arial;
+	height: 4em;
+	text-align: center;
+	vertical-align: middle;
+	width: 4em;
+}
+
+#contenido{
+	margin: 1em auto;
+	width: 90%;
+	min-height: 25em;
+}
+
+#contenido #atras:after{
+	content: "\e902";
+	font-family: "icomoon";
+}
+
+#contenido #adelante:after{
+	content: "\e901";
+	font-family: "icomoon";
+}
+
+#contenido article #visitas{
+	text-align: center;
+}
+
+#contenido #boton{
+	text-align: center;
+}
+#contenido #boton a{
+	background: #009688;
+	border-radius: 0.3em;
+	box-shadow: 0em 0.1em 0.1em 0 rgba(0,0,0,0.5);
+	color: white;
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 0.5em auto;
+	padding: 0.5em 1em; 
+	text-align: center;
+}
+
+
+#contenido #flechas{
+	text-align: center;
+}
+
+#contenido #flechas a{
+	background: transparent;
+	color: #009688;
+	font-size: 2.5em;
+	margin: 1.5em 0.5em 1em 0.5em;	
+}
+
+#contenido #que-es{
+	text-align: justify;
+}
+
+#contenido .Inst-preg{
+	text-align: center;
+}
+
+#contenido .Inst-preg #pregunta{
+	font-size: 1.3em;
+}
+
+#contenido .Inst-preg #reloj{
+	background-color: #1976D2;
+	border-radius: 0.2em;
+	-moz-border-radius:25px;
+	color:#EFEFEF;
+	display: inline-block;
+    font-family:sans-serif;
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 0.3em 0;
+	width: 3.5em; 
+}
+
+#contenido .Inst-preg p #boton-cambia{
+	background: #009688;
+	border: none;
+	border-radius: 0.2em;
+	box-shadow: 0em 0.1em 0.1em 0 rgba(0,0,0,0.5);
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	padding: 0.5em 0.7em;
+
+}
+
+#tercera-img #video-bienvenida{
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+
+#video-bienvenida iframe,
+#video-bienvenida object,
+#video-bienvenida embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

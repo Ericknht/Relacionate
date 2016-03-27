@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px)
+{
+	footer{
+		font-size: 1em;
+	}
+	#contenido{
+		max-width: 768px;
+		min-height: 42em;
+	}
+	#contenido .Inst-preg #pregunta{
+		font-size: 2.5em;
+	}
+
+	#contenido .Inst-preg #reloj{
+		font-size: 2.5em;
+	}
+
+	#contenido #flechas a{
+		font-size: 5em;
+	}
+
+}
